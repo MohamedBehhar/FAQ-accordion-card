@@ -49,7 +49,7 @@ body{
 .card{
 	background: white;
 	border-radius: 10px;
-	width: 80%;
+	width: 60%;
 	min-height: fit-content;
 	position: relative;
 	padding-top: 4rem;
@@ -139,6 +139,11 @@ body{
 	.questions{
 		flex: 1;
 	}
+
+	.questions{
+		padding-top: 2rem;
+		padding-bottom: 4rem;
+	}
 	.cover{
 		overflow: hidden;
 		height: 100%;
@@ -156,7 +161,7 @@ body{
 		left: 0;
 		top: 0;
 		z-index: 1;
-		transform: translate(-50%, 108%);
+		transform: translate(-50%, 125%);
 		max-width: 150px;
 	}
 	
